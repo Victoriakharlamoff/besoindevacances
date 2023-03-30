@@ -1,0 +1,54 @@
+h1 {
+    color: rgb(0, 0, 0);
+text-align: center;
+font-family: 'Bebas Neue', cursive;
+background-color: #1c95a7;
+}
+p {
+    text-align: center;
+    color: #000000;
+    font-family: 'Bebas Neue', cursive; 
+}
+#photoune{
+    background-image: url(https://img.freepik.com/vecteurs-premium/eau-mer-ete-turquoise-clair-realiste-vue-panoramique-ciel-bleu-nuages_49941-107.jpg);
+    width: 99vw;
+}
+#liensite{
+    color: rgb(0, 0, 0);
+    background-color: #1c95a7;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 250ms ease;
+}
+#liensite:hover{
+    background-color: #000000;
+    color:#1c95a7
+}
+div{
+    width: 400px;
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.shadow {
+    box-shadow: 20px 20px 20px;
+}
+p{
+    text-align: center;
+}
+body{
+    background-color: rgb(115, 178, 172);
+}
+video{
+    margin: 0 auto;
+    width: 1050px;
+    display: block;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1000px;
+}
